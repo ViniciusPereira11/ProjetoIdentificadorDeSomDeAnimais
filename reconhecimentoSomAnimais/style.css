@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(rgb(192, 211, 252), rgb(255, 164, 164), rgb(192, 211, 252));
+}
+.header{
+    background-color: rgb(203, 222, 243);
+    color: rgb(4, 107, 107);
+    font-family: 'Special Elite', cursive;
+
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background: rgb(255, 234, 234);
+    width: 100%;
+    text-shadow: 5px 5px 5px royalblue;
+}

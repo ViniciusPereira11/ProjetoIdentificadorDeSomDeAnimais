@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+  </style>
+</head>
+<body>
+    <center>
+    <div class="header">
+    <h2>Identificador de som de animais</h2>
+    <h3>Faça o som de latidas, miados, som de pássaros e somn de cordeiro </h3>
+    </div>
+    <br>
+    <div class="main">
+     <button class="btn btn-success" onclick="start()">Iniciar</button>
+     <h3>Posso ouvir: <span id="som"></span></h3>
+     <img src="https://s3-whjr-curriculum-uploads.whjr.online/6ebb2f63-0efa-419c-92eb-ac06118234b4.png">
+     <h3>Precisão<span id="precisao"></span></h3>
+     <br>
+     <div class="imagem">
+        <img id="a1" src="cachorro.png" width="300px">
+        <img id="a2" src="gato.png" width="300px">
+        <img id="a3" src="passaro.png" width="300px">
+        <img id="a4" src="carneiro.png" width="300px">
+
+     </div>
+    </div>
+    <div  class="footer">
+     <h3>Desenvolvido por: Vinícius</h3>
+     <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+     <script src="main.js"></script>
+    </div>
+</center>
+</body>
+</html>
